@@ -10,4 +10,7 @@ for _ in range(Q):
     if i >= len(A):
         print(-1)
     else:
-        print(A[i])
+        if A[i - 1] == X:
+             print(A[i - 1])
+        else:
+              print(A[i])
